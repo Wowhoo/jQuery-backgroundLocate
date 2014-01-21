@@ -1,0 +1,23 @@
+{
+  "name": "plugin",
+  "title": "jQuery plugin",
+  "description": " juqery plugin",
+  "keywords": [],
+  "version": "0.1.1",
+  "author": {
+    "name": "Wowhoo"
+  },
+  "bugs": "https://github.com/Wowhoo/jQuery-backgroundLocate/issues",
+  "licenses": [
+    {
+      "type": "GPL",
+      "url": "https://github.com/Wowhoo/jQuery-backgroundLocate/blob/master/LICENSE-GPL"
+    }
+  ],
+  "bugs": "https://github.com/Wowhoo/jQuery-backgroundLocate/issues",
+  "homepage": "https://github.com/Wowhoo/jQuery-backgroundLocate",
+  "docs": "https://github.com/Wowhoo/jQuery-backgroundLocate",
+  "dependencies": {
+    "jquery": ">= 1.8.3"
+  }
+}

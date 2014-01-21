@@ -1,0 +1,43 @@
+.options {
+	width: 500px;
+}
+.option {
+	overflow: hidden;
+}
+
+.option-title {
+	float: left;
+}
+
+.option-content {
+	float: right;
+	list-style: none;
+	overflow: hidden;
+}
+
+.bgLocate-repeat .option-content li {
+	float: left;
+	height: 40px;
+	width: 60px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+.bgLocate-repeat .option-content li.current {
+	background-color: blue;
+}
+
+.bgLocate-position {
+	position: relative;
+}
+
+.bgLocate-position .option-content li {
+	/*position: absolute;*/
+	height: 50px;
+	width: 70px;
+	border: 1px solid #e5e5e5;
+}
+
+.option-content li.bgLocate-current {
+	background-color: yellow;
+}
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>jquery-background-location</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+<!--         <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/prism.css">
+        <link rel="stylesheet" href="css/main.css">  -->
+        <link rel="stylesheet" href="css/backgroundLocate.css">
+
+
+        <script src="js/vendor/jquery-1.9.1.min.js"></script>
+        <script src="js/vendor/jquery.toc.js"></script>
+        <script src="js/vendor/prism.js"></script>
+        <script src="js/vendor/bootstrap.js"></script>
+        <script src="../src/jquery-backgroundL.js"></script>
+        <style type="text/css">
+            input {
+                width: 100%;
+            }
+        </style>
+    </head>
+<body>
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+
+    <form action="">   
+        <div></div>
+        <!-- <div class="options bg-loaction">
+            <div class="option repeat">
+                <span class="option-title">repeat:</span>
+                <ul class="option-content">
+                    <li data-value="no-repeat"><span>1</span></li>
+                    <li data-value="repeat"><span>2</span></li>
+                    <li data-value="repeat_x"><span>3</span></li>
+                    <li data-value="repeat_y"><span>4</span></li>
+                </ul>
+            </div>
+            <div class="option position">
+                <span class="option-title">Position:</span>
+                <ul class="option-content">
+                    <li data-value="top_left"><span>1</span></li>
+                    <li data-value="top_center"><span>2</span></li>
+                    <li data-value="top_right"><span>3</span></li>
+                    <li data-value="center_left"><span>4</span></li>
+                    <li data-value="center_center"><span>5</span></li>
+                    <li data-value="center_right"><span>6</span></li>
+                    <li data-value="bottom_left"><span>7</span></li>
+                    <li data-value="bottom_center"><span>8</span></li>
+                    <li data-value="bottom_right"><span>9</span></li>
+                </ul>
+            </div>
+        </div> -->
+        <input type="text" class="bg-location" value='{"repeat":"no-repeat","position":"center_center","attachment":"fixed"}' />
+    </form>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.bg-location').backgroundLocate({
+                
+            });
+            // $('.az-selector').select({
+            //         namespace: 'az-selector', 
+            //         offset: [5, 5], 
+            //         onChange: function(data) {
+            //             var value = instance.get();
+            //             $('<div><span>value: </span>' + data + '</div>').prependTo($('.content1'));
+            //         }
+            //     });
+        });
+    </script>
+</body>
+</html>
